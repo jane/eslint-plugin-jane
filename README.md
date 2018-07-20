@@ -12,7 +12,7 @@ Jane's Eslint plugin and configurations.
 
 ## Usage
 
-.eslintrc.json
+.eslintrc.json:
 ```json
 {
   "root": true,
