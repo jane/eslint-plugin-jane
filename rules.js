@@ -392,7 +392,7 @@ const plugin = {
       rules: jestRules,
     },
     prettier: {
-      plugins: [ 'prettier' ],
+      plugins: ['prettier'],
       extends: ['plugin:import/warnings'],
       rules: prettierRules,
     },
