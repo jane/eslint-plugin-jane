@@ -12,7 +12,6 @@
   "scripts": {
     "format": "prettier \"*.js\" --write",
     "precommit": "lint-staged",
-    "preversion": "npm t",
     "test": "run-s -s test:lint test:test",
     "test:lint": "eslint -c .eslintrc.js *.js",
     "test:test": "node test"
