@@ -22,6 +22,7 @@ Jane's Eslint plugin and configurations.
     "plugin:jane/node",
     "plugin:jane/flow",
     "plugin:jane/style",
+    "plugin:jane/prettier",
     "plugin:jane/jest"
   ],
   "plugins": [
