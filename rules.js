@@ -15,6 +15,7 @@ const nodeRules = {
   'node/no-unsupported-features/es-syntax': 0,
   'node/no-unsupported-features/node-builtins': 2,
   'node/process-exit-as-throw': 1,
+  'node/shebang': 0,
   'node/no-deprecated-api': 1,
   'node/prefer-global/buffer': [1, 'never'],
   'node/prefer-global/console': [1, 'always'],
