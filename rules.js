@@ -370,7 +370,7 @@ const plugin = {
       env: {
         node: true,
       },
-      extends: ['plugin:import/warnings'],
+      extends: ['plugin:import/warnings', 'plugin:node/recommended'],
       rules: nodeRules,
     },
     flow: {
