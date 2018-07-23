@@ -33,6 +33,13 @@ Jane's Eslint plugin and configurations.
 
 You can extend any or all of the exported configurations.
 
+You can also use or extend our Prettier config:
+
+.prettierrc.js:
+```javascript
+module.exports = require('eslint-plugin-jane/prettier')
+```
+
 ## License
 
 [MIT](./LICENSE.md)

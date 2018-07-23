@@ -9,6 +9,11 @@
   },
   "license": "MIT",
   "main": "index.js",
+  "files": [
+    "index.js",
+    "rules.js",
+    "prettier.js"
+  ],
   "scripts": {
     "format": "prettier \"*.js\" --write",
     "precommit": "lint-staged",
