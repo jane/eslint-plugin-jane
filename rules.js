@@ -3,6 +3,7 @@
 const prettierFormat = require('./prettier')
 
 const nodeRules = {
+  'no-process-exit': 0,
   'node/no-extraneous-import': 1,
   'node/no-extraneous-require': 1,
   'node/no-missing-import': 2,
