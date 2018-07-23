@@ -1,6 +1,6 @@
 /* eslint-disable max-lines */
 
-const prettierFormat = require('./prettier')
+const prettierConfig = require('./prettier-config')
 
 const nodeRules = {
   'node/no-extraneous-import': 'warn',
@@ -151,7 +151,7 @@ const styleRules = {
 }
 
 const prettierRules = {
-  'prettier/prettier': ['warn', prettierFormat],
+  'prettier/prettier': ['warn', prettierConfig],
 }
 
 const flowRules = {
