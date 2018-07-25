@@ -71,6 +71,6 @@
     ]
   },
   "peerDependencies": {
-    "eslint": "5.1.0"
+    "eslint": "^5.1.0"
   }
 }
