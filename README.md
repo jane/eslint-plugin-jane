@@ -1,7 +1,5 @@
 # eslint-plugin-jane
 
-**IMPORTANT** Pre-release and unstable.
-
 Jane's Eslint plugin and configurations.
 
 --------
@@ -39,6 +37,11 @@ You can also use or extend our Prettier config:
 ```javascript
 module.exports = require('eslint-plugin-jane/prettier')
 ```
+
+## TODO:
+
+* Use eslint-plugin-jane to lint eslint-plugin-jane.
+* Fix testing.
 
 ## License
 
