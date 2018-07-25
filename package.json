@@ -15,6 +15,7 @@
     "prettier.js"
   ],
   "scripts": {
+    "_preversion": "npm t",
     "format": "prettier \"*.js\" --write",
     "precommit": "lint-staged",
     "test": "run-s -s test:lint test:test",
