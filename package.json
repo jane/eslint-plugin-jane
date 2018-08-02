@@ -1,6 +1,6 @@
 {
   "name": "eslint-plugin-jane",
-  "description": "eslint-plugin-jane",
+  "description": "Jane's Eslint plugin and configurations",
   "version": "0.1.9",
   "author": {
     "name": "Zac Anger",
