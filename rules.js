@@ -1,13 +1,20 @@
-import { flowRules } from './flow'
-import { nodeRules } from './node'
-import { reactRules } from './react'
-import { a11yRules, baseRules, prettierRules, styleRules } from './style'
+const prettierFormat = require('./prettier')
+
+const { flowRules } = require('./flow')
+const { nodeRules } = require('./node')
+const { a11yRules, reactRules } = require('./react')
+const { baseRules } = require('./recommended')
+const { styleRules } = require('./style')
 
 const jestRules = {
   'jest/no-disabled-tests': 0,
   'jest/no-focused-tests': 1,
   'jest/no-identical-title': 1,
   'jest/valid-expect': 1,
+}
+
+export const prettierRules = {
+  'prettier/prettier': [1, prettierFormat],
 }
 
 const defaultParserOptions = {

@@ -1,4 +1,4 @@
-export const nodeRules = {
+const nodeRules = {
   'no-process-exit': 0,
   'node/no-extraneous-import': 1,
   'node/no-extraneous-require': 1,
@@ -19,3 +19,5 @@ export const nodeRules = {
   'node/prefer-global/url-search-params': [1, 'never'],
   'node/prefer-global/url': [1, 'never'],
 }
+
+module.exports = { nodeRules }

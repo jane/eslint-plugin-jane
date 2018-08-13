@@ -1,19 +1,32 @@
-export const reactStyleRules = {
-  'react/jsx-curly-spacing': [1, 'never'],
-  'react/jsx-equals-spacing': [1, 'never'],
-  'react/jsx-indent': [1, 2],
-  'react/jsx-indent-props': [1, 2],
-  'react/jsx-tag-spacing': [
-    1,
-    {
-      afterOpening: 'never',
-      beforeSelfClosing: 'always',
-      closingSlash: 'never',
-    },
-  ],
+const a11yRules = {
+  'jsx-a11y/accessible-emoji': 1,
+  'jsx-a11y/alt-text': 1,
+  'jsx-a11y/anchor-has-content': 1,
+  'jsx-a11y/anchor-is-valid': 1,
+  'jsx-a11y/aria-activedescendant-has-tabindex': 1,
+  'jsx-a11y/aria-props': 1,
+  'jsx-a11y/aria-proptypes': 1,
+  'jsx-a11y/aria-role': 1,
+  'jsx-a11y/aria-unsupported-elements': 1,
+  'jsx-a11y/click-events-have-key-events': 1,
+  'jsx-a11y/heading-has-content': 1,
+  'jsx-a11y/html-has-lang': 1,
+  'jsx-a11y/iframe-has-title': 1,
+  'jsx-a11y/img-redundant-alt': 1,
+  'jsx-a11y/interactive-supports-focus': 1,
+  'jsx-a11y/label-has-for': 1,
+  'jsx-a11y/mouse-events-have-key-events': 1,
+  'jsx-a11y/no-access-key': 1,
+  'jsx-a11y/no-distracting-elements': 1,
+  'jsx-a11y/no-onchange': 1,
+  'jsx-a11y/no-redundant-roles': 1,
+  'jsx-a11y/role-has-required-aria-props': 1,
+  'jsx-a11y/role-supports-aria-props': 1,
+  'jsx-a11y/scope': 1,
+  'jsx-a11y/tabindex-no-positive': 1,
 }
 
-export const reactRules = {
+const reactRules = {
   'react/jsx-boolean-value': 1,
   'react/jsx-no-bind': 0,
   'react/jsx-no-duplicate-props': [1, { ignoreCase: true }],
@@ -32,3 +45,5 @@ export const reactRules = {
   'react/require-render-return': 1,
   'react/self-closing-comp': 1,
 }
+
+module.exports = { a11yRules, reactRules }

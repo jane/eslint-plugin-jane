@@ -1,4 +1,4 @@
-export const flowRules = {
+const flowRules = {
   'flowtype-errors/show-errors': 2,
   'flowtype/generic-spacing': 0,
   'flowtype/no-types-missing-file-annotation': 2,
@@ -18,3 +18,5 @@ export const flowRules = {
   ],
   'flowtype/space-after-type-colon': 1,
 }
+
+module.exports = { flowRules }
