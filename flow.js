@@ -3,10 +3,7 @@ const flowRules = {
   'flowtype/generic-spacing': 0,
   'flowtype/no-types-missing-file-annotation': 2,
   'flowtype/no-weak-types': 2,
-  'flowtype/require-parameter-type': [
-    2,
-    { excludeArrowFunctions: 'expressionsOnly' },
-  ],
+  'flowtype/require-parameter-type': 2,
   'flowtype/require-return-type': [
     2,
     'always',
