@@ -11,12 +11,12 @@
   "main": "index.js",
   "files": [
     "index.js",
-    "rules.js",
+    "rules",
     "prettier.js"
   ],
   "scripts": {
     "_preversion": "npm t",
-    "format": "prettier \"*.js\" --write",
+    "format": "prettier \"*.js\" \"rules/*.js\" --write",
     "precommit": "lint-staged",
     "test": "run-s -s test:lint test:test",
     "test:lint": "eslint -c .eslintrc.js *.js",
