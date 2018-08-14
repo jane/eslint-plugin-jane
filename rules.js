@@ -13,7 +13,7 @@ const jestRules = {
   'jest/valid-expect': 1,
 }
 
-export const prettierRules = {
+const prettierRules = {
   'prettier/prettier': [1, prettierFormat],
 }
 
