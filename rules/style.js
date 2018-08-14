@@ -70,4 +70,9 @@ const styleRules = {
   'yield-star-spacing': [1, 'both'],
 }
 
-module.exports = { reactStyleRules, styleRules }
+const flowStyleRules = {
+  'flowtype/generic-spacing': 1,
+  'flowtype/space-after-type-colon': 1,
+}
+
+module.exports = { reactStyleRules, styleRules, flowStyleRules }

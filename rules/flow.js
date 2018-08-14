@@ -1,6 +1,5 @@
 const flowRules = {
   'flowtype-errors/show-errors': 2,
-  'flowtype/generic-spacing': 0,
   'flowtype/no-types-missing-file-annotation': 2,
   'flowtype/no-weak-types': 2,
   'flowtype/require-parameter-type': 2,
@@ -13,7 +12,6 @@ const flowRules = {
     2,
     { excludeVariableTypes: { const: true, let: false, var: false } },
   ],
-  'flowtype/space-after-type-colon': 1,
 }
 
 module.exports = { flowRules }
