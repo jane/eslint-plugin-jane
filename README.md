@@ -40,8 +40,6 @@ module.exports = require('eslint-plugin-jane/prettier')
 
 ## TODO:
 
-* Use eslint-plugin-jane to lint eslint-plugin-jane.
-* Fix testing.
 * Don't apply Flow-related style rules when Prettier is present.
 
 ## License

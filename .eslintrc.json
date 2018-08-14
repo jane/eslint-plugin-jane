@@ -1,6 +1,11 @@
 {
   "root": true,
+  "plugins": [
+    "self"
+  ],
   "extends": [
-    "eslint-config-jane"
+    "plugin:self/recommended",
+    "plugin:self/node",
+    "plugin:self/prettier"
   ]
 }
