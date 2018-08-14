@@ -12,6 +12,8 @@ const flowRules = {
     2,
     { excludeVariableTypes: { const: true, let: false, var: false } },
   ],
+  'flowtype/generic-spacing': 0,
+  'flowtype/space-after-type-colon': 0,
 }
 
 module.exports = { flowRules }
