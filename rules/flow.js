@@ -1,4 +1,6 @@
 const flowRules = {
+  // TODO: make this a 2 in the future:
+  'flowtype/no-existential-type': 1,
   'flowtype-errors/show-errors': 2,
   'flowtype/no-types-missing-file-annotation': 2,
   'flowtype/no-weak-types': 2,
