@@ -4,7 +4,7 @@ const flowRules = {
   'flowtype-errors/show-errors': 2,
   'flowtype/no-types-missing-file-annotation': 2,
   'flowtype/no-weak-types': 2,
-  'flowtype/require-parameter-type': 2,
+  'flowtype/require-parameter-type': [2, { excludeParameterMatch: '^_' }],
   'flowtype/require-return-type': [
     2,
     'always',
