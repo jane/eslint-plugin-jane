@@ -1,7 +1,7 @@
 const baseRules = {
   'array-callback-return': 1,
   'arrow-body-style': [1, 'as-needed'],
-  camelcase: [1, { properties: 'never' }],
+  camelcase: [2, { properties: 'never' }],
   'comma-dangle': [
     2,
     {
