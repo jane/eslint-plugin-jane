@@ -28,6 +28,7 @@ const a11yRules = {
 
 const reactRules = {
   'react/jsx-boolean-value': 1,
+  'react/jsx-curly-brace-presence': [1, 'never'],
   'react/jsx-no-bind': 0,
   'react/jsx-no-duplicate-props': [1, { ignoreCase: true }],
   'react/jsx-no-undef': 1,
