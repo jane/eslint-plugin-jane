@@ -59,7 +59,7 @@ const plugin = {
       rules: nodeRules,
     },
     flow: {
-      plugins: ['flowtype', 'flowtype-errors'],
+      plugins: ['flowtype'],
       extends: ['plugin:import/warnings', 'plugin:flowtype/recommended'],
       rules: flowRules,
     },
