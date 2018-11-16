@@ -16,6 +16,7 @@ const baseRules = {
   curly: [1, 'multi-line'],
   'default-case': [1, { commentPattern: '^no default$' }],
   'eol-last': 2,
+  'func-style': [1, 'expression'],
   eqeqeq: [1, 'allow-null'],
   'guard-for-in': 1,
   'linebreak-style': [2, 'unix'],
