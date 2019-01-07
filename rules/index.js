@@ -8,13 +8,13 @@ const { reactStyleRules, flowStyleRules, styleRules } = require('./style')
 
 const jestRules = {
   'jest/no-disabled-tests': 0,
-  'jest/no-focused-tests': 1,
-  'jest/no-identical-title': 1,
-  'jest/valid-expect': 1,
+  'jest/no-focused-tests': 2,
+  'jest/no-identical-title': 2,
+  'jest/valid-expect': 2,
 }
 
 const prettierRules = {
-  'prettier/prettier': [1, prettierFormat],
+  'prettier/prettier': [2, prettierFormat],
 }
 
 const defaultParserOptions = {
