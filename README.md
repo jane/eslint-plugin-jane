@@ -19,9 +19,6 @@ Jane's ESLint plugin and configurations.
     "plugin:jane/react",
     "plugin:jane/node",
     "plugin:jane/flow",
-    "plugin:jane/style",
-    "plugin:jane/react-style",
-    "plugin:jane/flow-style",
     "plugin:jane/prettier",
     "plugin:jane/jest"
   ],

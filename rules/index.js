@@ -4,7 +4,6 @@ const { flowRules } = require('./flow')
 const { nodeRules } = require('./node')
 const { a11yRules, reactRules } = require('./react')
 const { baseRules } = require('./recommended')
-const { reactStyleRules, flowStyleRules, styleRules } = require('./style')
 
 const jestRules = {
   'jest/no-disabled-tests': 0,
@@ -62,18 +61,6 @@ const plugin = {
       plugins: ['flowtype'],
       extends: ['plugin:import/warnings', 'plugin:flowtype/recommended'],
       rules: flowRules,
-    },
-    style: {
-      extends: ['plugin:import/warnings'],
-      rules: styleRules,
-    },
-    'react-style': {
-      extends: ['plugin:import/warnings'],
-      rules: reactStyleRules,
-    },
-    'flow-style': {
-      extends: ['plugin:import/warnings'],
-      rules: flowStyleRules,
     },
     jest: {
       env: {
