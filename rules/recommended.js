@@ -31,7 +31,7 @@ const baseRules = {
   'no-caller': 2,
   'no-class-assign': 2,
   'no-cond-assign': [2, 'always'],
-  'no-console': [1],
+  'no-console': [2],
   'no-const-assign': 2,
   'no-constant-condition': [2, { checkLoops: false }],
   'no-control-regex': 2,
