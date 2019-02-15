@@ -46,7 +46,7 @@ const plugin = {
       env: {
         browser: true,
       },
-      plugins: ['react', 'jsx-a11y'],
+      plugins: ['react', 'jsx-a11y', 'react-hooks'],
       extends: ['plugin:import/warnings'],
       rules: Object.assign({}, reactRules, a11yRules),
     },
