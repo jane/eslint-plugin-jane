@@ -16,7 +16,6 @@
   ],
   "scripts": {
     "format": "prettier \"*.js\" \"rules/*.js\" --write && sortpack",
-    "precommit": "lint-staged",
     "preversion": "npm t",
     "test": "run-s -s test:lint test:test",
     "test:lint": "eslint -c .eslintrc.json *.js rules",
@@ -75,5 +74,10 @@
   },
   "peerDependencies": {
     "eslint": "^5.1.0"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
   }
 }
