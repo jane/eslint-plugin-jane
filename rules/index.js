@@ -4,13 +4,7 @@ const { flowRules } = require('./flow')
 const { nodeRules } = require('./node')
 const { a11yRules, reactRules } = require('./react')
 const { baseRules } = require('./recommended')
-
-const jestRules = {
-  'jest/no-disabled-tests': 0,
-  'jest/no-focused-tests': 2,
-  'jest/no-identical-title': 2,
-  'jest/valid-expect': 2,
-}
+const { jestRules } = require('./jest')
 
 const prettierRules = {
   'prettier/prettier': [2, prettierFormat],
