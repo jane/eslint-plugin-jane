@@ -6,7 +6,7 @@ Jane's ESLint plugin and configurations.
 
 ## Installation
 
-`npm i -D eslint eslint-plugin-jane eslint`
+`npm i -D eslint eslint-plugin-jane`
 
 ## Usage
 
