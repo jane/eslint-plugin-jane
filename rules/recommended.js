@@ -13,7 +13,7 @@ const baseRules = {
     },
   ],
   'constructor-super': 2,
-  curly: [2, 'multi-line'],
+  curly: 2,
   'default-case': [2, { commentPattern: '^no default$' }],
   'eol-last': 2,
   'func-style': [2, 'expression'],
