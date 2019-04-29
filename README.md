@@ -33,6 +33,14 @@ Jane's ESLint plugin and configurations.
 ```
 
 You can extend any or all of the exported configurations.
+If you are using the typescript plugin, some of the rules require this to be
+added to the .eslintrc file
+```json
+"parser": "@typescript-eslint/parser",
+"parserOptions": {
+  "project": "./tsconfig.json"
+},
+```
 
 You can also use or extend our Prettier config:
 
