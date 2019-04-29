@@ -12,6 +12,7 @@
   "files": [
     "index.js",
     "prettier.js",
+    "prettier-ts.js",
     "rules"
   ],
   "scripts": {
