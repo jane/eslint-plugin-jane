@@ -74,7 +74,7 @@ const plugin = {
       extends: ['plugin:import/warnings'],
       rules: prettierRules,
     },
-    'pretter-ts': {
+    'prettier-ts': {
       plugins: ['prettier'],
       extends: ['plugin:import/warnings'],
       rules: prettierTsRules,
