@@ -76,7 +76,7 @@ const plugin = {
     },
     'prettier-ts': {
       plugins: ['prettier'],
-      extends: ['plugin:import/warnings'],
+      extends: ['plugin:import/warnings', 'prettier/@typescript-eslint'],
       rules: prettierTsRules,
     },
     typescript: {
