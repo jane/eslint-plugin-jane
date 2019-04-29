@@ -1,13 +1,18 @@
 const prettierFormat = require('./prettier')
+const { prettierTsFormat } = require('./prettier-ts')
 
 const { flowRules } = require('./flow')
 const { nodeRules } = require('./node')
 const { a11yRules, reactRules } = require('./react')
 const { baseRules } = require('./recommended')
 const { jestRules } = require('./jest')
+const { typescriptRules } = require('./typescript')
 
 const prettierRules = {
   'prettier/prettier': [2, prettierFormat],
+}
+const prettierTsRules = {
+  'prettier/@typescript-eslint': [2, prettierTsFormat],
 }
 
 const defaultParserOptions = {
@@ -68,6 +73,19 @@ const plugin = {
       plugins: ['prettier'],
       extends: ['plugin:import/warnings'],
       rules: prettierRules,
+    },
+    'prettier-ts': {
+      plugins: ['prettier'],
+      extends: ['plugin:import/warnings', 'prettier/@typescript-eslint'],
+      rules: prettierTsRules,
+    },
+    typescript: {
+      plugins: ['@typescript-eslint'],
+      extends: [
+        'plugin:import/warnings',
+        'plugin:@typescript-eslint/recommended',
+      ],
+      rules: typescriptRules,
     },
   },
 }

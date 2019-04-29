@@ -21,6 +21,8 @@ Jane's ESLint plugin and configurations.
     "plugin:jane/react",
     "plugin:jane/node",
     "plugin:jane/flow",
+    "plugin:jane/typescript",
+    "plugin:jane/prettier-ts",
     "plugin:jane/prettier",
     "plugin:jane/jest"
   ],
@@ -37,6 +39,8 @@ You can also use or extend our Prettier config:
 .prettierrc.js:
 ```javascript
 module.exports = require('eslint-plugin-jane/prettier')
+// OR for TS files
+module.exports = require('eslint-plugin-jane/prettier-ts')
 ```
 
 ## License
