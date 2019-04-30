@@ -57,6 +57,7 @@ const typescriptRules = {
   '@typescript-eslint/semi': 0,
   '@typescript-eslint/type-annotation-spacing': 0,
   'node/no-missing-import': 0,
+  camelcase: 0,
 }
 
 module.exports = { typescriptRules }
