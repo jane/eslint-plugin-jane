@@ -1,5 +1,5 @@
 const prettierFormat = require('./prettier')
-const { prettierTsFormat } = require('./prettier-ts')
+const prettierTsFormat = require('./prettier-ts')
 
 const { flowRules } = require('./flow')
 const { nodeRules } = require('./node')

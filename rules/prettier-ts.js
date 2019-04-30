@@ -1,4 +1,4 @@
-const prettierTsFormat = {
+module.exports = {
   arrowParens: 'always',
   parser: 'typescript',
   printWidth: 80,
@@ -7,5 +7,3 @@ const prettierTsFormat = {
   tabWidth: 2,
   trailingComma: 'es5',
 }
-
-module.exports = { prettierTsFormat }
