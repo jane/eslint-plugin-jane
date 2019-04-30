@@ -6,7 +6,6 @@ const typescriptRules = {
     2,
     {
       types: {
-        Array: null,
         Object: 'Use {} instead',
         String: {
           message: 'Use string instead',
@@ -57,6 +56,7 @@ const typescriptRules = {
   '@typescript-eslint/restrict-plus-operands': 2,
   '@typescript-eslint/semi': 0,
   '@typescript-eslint/type-annotation-spacing': 0,
+  'node/no-missing-import': 0,
 }
 
 module.exports = { typescriptRules }
