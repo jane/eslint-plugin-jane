@@ -58,6 +58,7 @@ const typescriptRules = {
   '@typescript-eslint/type-annotation-spacing': 0,
   'no-unused-labels': 0,
   'node/no-missing-import': 0,
+  'node/no-missing-require': 0,
   camelcase: 0,
 }
 
