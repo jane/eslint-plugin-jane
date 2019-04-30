@@ -81,10 +81,7 @@ const plugin = {
     },
     typescript: {
       plugins: ['@typescript-eslint'],
-      extends: [
-        'plugin:import/warnings',
-        'plugin:@typescript-eslint/recommended',
-      ],
+      extends: ['plugin:import/warnings', '@typescript-eslint/recommended'],
       rules: typescriptRules,
       parser: '@typescript-eslint/parser',
       parserOptions: './tsconfig.json',
