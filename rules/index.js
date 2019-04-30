@@ -87,7 +87,7 @@ const plugin = {
       ],
       rules: typescriptRules,
       parser: '@typescript-eslint/parser',
-      parserOptions: './tsconfig.json',
+      parserOptions: { project: './tsconfig.json' },
     },
   },
 }
