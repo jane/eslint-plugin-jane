@@ -56,6 +56,7 @@ const typescriptRules = {
   '@typescript-eslint/restrict-plus-operands': 2,
   '@typescript-eslint/semi': 0,
   '@typescript-eslint/type-annotation-spacing': 0,
+  'no-unused-labels': 0,
   'node/no-missing-import': 0,
   camelcase: 0,
 }
