@@ -76,12 +76,15 @@ const plugin = {
     },
     'prettier-ts': {
       plugins: ['prettier'],
-      extends: ['plugin:import/warnings', 'plugin:prettier/@typescript-eslint'],
+      extends: ['plugin:import/warnings', 'prettier/@typescript-eslint'],
       rules: prettierTsRules,
     },
     typescript: {
       plugins: ['@typescript-eslint'],
-      extends: ['plugin:import/warnings', '@typescript-eslint/recommended'],
+      extends: [
+        'plugin:import/warnings',
+        'plugin:@typescript-eslint/recommended',
+      ],
       rules: typescriptRules,
       parser: '@typescript-eslint/parser',
       parserOptions: './tsconfig.json',
