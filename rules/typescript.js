@@ -45,6 +45,13 @@ const typescriptRules = {
   '@typescript-eslint/no-parameter-properties': 0,
   '@typescript-eslint/no-triple-slash-reference': 2,
   '@typescript-eslint/no-unnecessary-type-assertion': 2,
+  '@typescript-eslint/no-unused-vars': [
+    2,
+    {
+      ignoreRestSiblings: true,
+      argsIgnorePattern: '^_',
+    },
+  ],
   '@typescript-eslint/no-useless-constructor': 2,
   '@typescript-eslint/no-var-requires': 2,
   '@typescript-eslint/prefer-function-type': 2,
