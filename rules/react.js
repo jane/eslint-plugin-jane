@@ -14,7 +14,7 @@ const a11yRules = {
   'jsx-a11y/iframe-has-title': 2,
   'jsx-a11y/img-redundant-alt': 2,
   'jsx-a11y/interactive-supports-focus': 2,
-  'jsx-a11y/label-has-for': 2,
+  'jsx-a11y/label-has-associated-control': [2, { assert: 'either', depth: 3 }],
   'jsx-a11y/mouse-events-have-key-events': 2,
   'jsx-a11y/no-access-key': 2,
   'jsx-a11y/no-distracting-elements': 2,
