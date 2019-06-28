@@ -28,6 +28,7 @@ const a11yRules = {
 
 const reactRules = {
   'react-hooks/rules-of-hooks': 2,
+  'react-hooks/exhaustive-deps': 2,
   'react/jsx-boolean-value': 2,
   'react/jsx-curly-brace-presence': [2, 'never'],
   'react/jsx-no-bind': 0,
