@@ -20,7 +20,6 @@ Jane's ESLint plugin and configurations.
     "plugin:jane/recommended",
     "plugin:jane/react",
     "plugin:jane/node",
-    "plugin:jane/flow",
     "plugin:jane/typescript",
     "plugin:jane/prettier-ts",
     "plugin:jane/prettier",

@@ -1,7 +1,6 @@
 const prettierFormat = require('./prettier')
 const prettierTsFormat = require('./prettier-ts')
 
-const { flowRules } = require('./flow')
 const { nodeRules } = require('./node')
 const { a11yRules, reactRules } = require('./react')
 const { baseRules } = require('./recommended')
@@ -55,11 +54,6 @@ const plugin = {
       },
       extends: ['plugin:import/warnings', 'plugin:node/recommended'],
       rules: nodeRules,
-    },
-    flow: {
-      plugins: ['flowtype'],
-      extends: ['plugin:import/warnings', 'plugin:flowtype/recommended'],
-      rules: flowRules,
     },
     jest: {
       env: {
