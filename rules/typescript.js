@@ -32,7 +32,6 @@ const typescriptRules = {
       },
     },
   ],
-  '@typescript-eslint/no-angle-bracket-type-assertion': 2,
   '@typescript-eslint/no-array-constructor': 2,
   '@typescript-eslint/no-empty-interface': 2,
   '@typescript-eslint/no-explicit-any': 2,
@@ -40,9 +39,7 @@ const typescriptRules = {
   '@typescript-eslint/no-misused-new': 2,
   '@typescript-eslint/no-namespace': 2,
   '@typescript-eslint/no-non-null-assertion': 2,
-  '@typescript-eslint/no-object-literal-type-assertion': 2,
   '@typescript-eslint/no-parameter-properties': 0,
-  '@typescript-eslint/no-triple-slash-reference': 2,
   '@typescript-eslint/no-unnecessary-type-assertion': 2,
   '@typescript-eslint/no-unused-vars': [
     2,
