@@ -1,6 +1,7 @@
 const typescriptRules = {
   '@typescript-eslint/adjacent-overload-signatures': 2,
   '@typescript-eslint/await-thenable': 2,
+  '@typescript-eslint/ban-ts-ignore': 0,
   '@typescript-eslint/ban-types': [
     2,
     {
