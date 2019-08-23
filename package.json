@@ -73,6 +73,10 @@
       "prettier --write",
       "sortpack",
       "git add"
+    ],
+    "package.json": [
+      "sortpack",
+      "git add"
     ]
   },
   "peerDependencies": {
