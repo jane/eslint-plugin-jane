@@ -80,7 +80,7 @@
     ]
   },
   "peerDependencies": {
-    "eslint": "^6.2.2"
+    "eslint": "^6.0.1"
   },
   "husky": {
     "hooks": {
