@@ -12,6 +12,7 @@ const prettierRules = {
 }
 const prettierTsRules = {
   'prettier/prettier': [2, prettierTsFormat],
+  '@typescript-eslint/member-delimiter-style': 0,
 }
 
 const defaultParserOptions = {
