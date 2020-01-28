@@ -27,10 +27,11 @@ const a11yRules = {
 }
 
 const reactRules = {
-  'react-hooks/rules-of-hooks': 2,
   'react-hooks/exhaustive-deps': 2,
+  'react-hooks/rules-of-hooks': 2,
   'react/jsx-boolean-value': 2,
   'react/jsx-curly-brace-presence': [2, 'never'],
+  'react/jsx-fragments': [2, 'syntax'],
   'react/jsx-no-bind': 0,
   'react/jsx-no-duplicate-props': [2, { ignoreCase: true }],
   'react/jsx-no-undef': 2,
