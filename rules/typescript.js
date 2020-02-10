@@ -16,6 +16,7 @@ const typescriptRules = {
   ],
   '@typescript-eslint/camelcase': [2, { properties: 'never' }],
   '@typescript-eslint/class-name-casing': 2,
+  '@typescript-eslint/no-empty-function': 'off',
   '@typescript-eslint/explicit-function-return-type': 0,
   '@typescript-eslint/explicit-member-accessibility': 0,
   '@typescript-eslint/indent': 0,
