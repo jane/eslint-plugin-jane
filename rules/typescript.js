@@ -42,6 +42,10 @@ const typescriptRules = {
   '@typescript-eslint/no-namespace': 2,
   '@typescript-eslint/no-non-null-assertion': 2,
   '@typescript-eslint/no-parameter-properties': 0,
+  '@typescript-eslint/no-unused-expressions': [
+    2,
+    { allowTernary: true, allowShortCircuit: true },
+  ],
   '@typescript-eslint/no-unnecessary-type-assertion': 2,
   '@typescript-eslint/no-unused-vars': [
     2,
@@ -61,6 +65,7 @@ const typescriptRules = {
   '@typescript-eslint/restrict-plus-operands': 2,
   '@typescript-eslint/semi': 0,
   '@typescript-eslint/type-annotation-spacing': 0,
+  'no-unused-expressions': 0,
   'no-unused-labels': 0,
   'node/no-missing-import': 0,
   'node/no-missing-require': 0,
