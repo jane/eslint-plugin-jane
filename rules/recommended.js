@@ -146,7 +146,7 @@ const baseRules = {
   'unicorn/no-abusive-eslint-disable': 2,
   'unicorn/no-array-instanceof': 2,
   'unicorn/no-new-buffer': 2,
-  'unicorn/no-unreadable-array-desructuring': 2,
+  'unicorn/no-unreadable-array-destructuring': 2,
   'unicorn/no-zero-fractions': 2,
   'unicorn/prefer-includes': 2,
   'unicorn/prefer-spread': 2,
