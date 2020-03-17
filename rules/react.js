@@ -44,7 +44,6 @@ const reactRules = {
   'react/no-direct-mutation-state': 2,
   'react/no-is-mounted': 2,
   'react/no-unknown-property': 2,
-  'react/prop-types': 2,
   'react/react-in-jsx-scope': 2,
   'react/require-render-return': 2,
   'react/self-closing-comp': 2,
