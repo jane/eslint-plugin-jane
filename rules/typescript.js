@@ -1,5 +1,6 @@
 const typescriptRules = {
   '@typescript-eslint/adjacent-overload-signatures': 2,
+  '@typescript-eslint/array-type': [2, { default: 'generic' }],
   '@typescript-eslint/await-thenable': 2,
   '@typescript-eslint/ban-ts-comment': 0,
   '@typescript-eslint/ban-types': [
