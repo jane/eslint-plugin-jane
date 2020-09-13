@@ -53,6 +53,7 @@ const typescriptRules = {
       argsIgnorePattern: '^_',
     },
   ],
+  '@typescript-eslint/no-use-before-define': 2,
   '@typescript-eslint/no-useless-constructor': 2,
   '@typescript-eslint/no-var-requires': 2,
   '@typescript-eslint/prefer-function-type': 2,
@@ -68,6 +69,7 @@ const typescriptRules = {
   'no-unused-labels': 0,
   'node/no-missing-import': 0,
   'node/no-missing-require': 0,
+  'no-use-before-define': 0,
   camelcase: 0,
 }
 
