@@ -1,7 +1,7 @@
 {
   "name": "eslint-plugin-jane",
   "description": "Jane's ESLint plugin and configurations",
-  "version": "9.0.1",
+  "version": "9.0.2",
   "author": {
     "email": "zac@zacanger.com",
     "name": "Zac Anger",
