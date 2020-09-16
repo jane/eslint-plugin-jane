@@ -2,11 +2,7 @@
   "name": "eslint-plugin-jane",
   "description": "Jane's ESLint plugin and configurations",
   "version": "9.0.2",
-  "author": {
-    "email": "zac@zacanger.com",
-    "name": "Zac Anger",
-    "url": "http://zacanger.com"
-  },
+  "author": "Jane",
   "license": "MIT",
   "main": "index.js",
   "files": [
