@@ -150,6 +150,7 @@ const baseRules = {
   'unicorn/no-useless-undefined': 2,
   'unicorn/no-zero-fractions': 2,
   'unicorn/prefer-array-find': 2,
+  'unicorn/prefer-date-now': 2,
   'unicorn/prefer-includes': 2,
   'unicorn/prefer-optional-catch-binding': 2,
   'unicorn/prefer-spread': 2,
