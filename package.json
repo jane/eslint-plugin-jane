@@ -50,10 +50,10 @@
     "eslint-plugin-promise": "6.0.0",
     "eslint-plugin-react": "7.28.0",
     "eslint-plugin-react-hooks": "4.3.0",
-    "eslint-plugin-unicorn": "40.0.0"
+    "eslint-plugin-unicorn": "34.0.1"
   },
   "devDependencies": {
-    "eslint": "6.8.0",
+    "eslint": "7.32.0",
     "eslint-plugin-self": "1.2.1",
     "husky": "4.3.6",
     "lint-staged": "12.1.7",
