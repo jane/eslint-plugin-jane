@@ -1,7 +1,7 @@
 {
   "name": "eslint-plugin-jane",
   "description": "Jane's ESLint plugin and configurations",
-  "version": "9.0.6",
+  "version": "10.0.0-dev.14",
   "author": "Jane",
   "license": "MIT",
   "main": "index.js",
@@ -37,29 +37,30 @@
     "plugin"
   ],
   "dependencies": {
-    "@typescript-eslint/eslint-plugin": "4.11.0",
-    "@typescript-eslint/parser": "4.11.0",
+    "@typescript-eslint/eslint-plugin": "5.9.0",
+    "@typescript-eslint/parser": "5.9.0",
     "babel-eslint": "10.1.0",
-    "eslint-config-prettier": "7.1.0",
+    "eslint-config-prettier": "8.3.0",
     "eslint-plugin-babel": "5.3.1",
-    "eslint-plugin-import": "2.22.1",
-    "eslint-plugin-jest": "24.1.3",
-    "eslint-plugin-jsx-a11y": "6.4.1",
+    "eslint-plugin-import": "2.25.4",
+    "eslint-plugin-jest": "25.3.4",
+    "eslint-plugin-jsx-a11y": "6.5.1",
     "eslint-plugin-node": "11.1.0",
-    "eslint-plugin-prettier": "3.3.0",
-    "eslint-plugin-promise": "4.2.1",
-    "eslint-plugin-react": "7.21.5",
-    "eslint-plugin-react-hooks": "4.2.0",
-    "eslint-plugin-unicorn": "24.0.0"
+    "eslint-plugin-prettier": "3.4.1",
+    "eslint-plugin-promise": "6.0.0",
+    "eslint-plugin-react": "7.28.0",
+    "eslint-plugin-react-hooks": "4.3.0",
+    "eslint-plugin-unicorn": "40.0.0"
   },
   "devDependencies": {
-    "eslint": "6.8.0",
+    "eslint": "7.32.0",
     "eslint-plugin-self": "1.2.1",
     "husky": "4.3.6",
-    "lint-staged": "10.5.3",
+    "lint-staged": "12.1.7",
     "npm-run-all": "4.1.5",
-    "prettier": "2.2.1",
-    "sortpack": "2.1.11"
+    "prettier": "2.5.1",
+    "sortpack": "2.2.0",
+    "typescript": "4.5.4"
   },
   "engines": {
     "node": ">=10.0.0"

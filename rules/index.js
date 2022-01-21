@@ -70,7 +70,7 @@ const plugin = {
     },
     'prettier-ts': {
       plugins: ['prettier'],
-      extends: ['plugin:import/warnings', 'prettier/@typescript-eslint'],
+      extends: ['plugin:import/warnings', 'prettier'],
       rules: prettierTsRules,
     },
     typescript: {

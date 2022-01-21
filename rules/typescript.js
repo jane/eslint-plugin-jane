@@ -62,7 +62,12 @@ const typescriptRules = {
   '@typescript-eslint/prefer-namespace-keyword': 0,
   '@typescript-eslint/prefer-string-starts-ends-with': 2,
   '@typescript-eslint/require-array-sort-compare': 2,
-  '@typescript-eslint/restrict-plus-operands': 2,
+  '@typescript-eslint/restrict-plus-operands': [
+    2,
+    {
+      allowAny: true,
+    },
+  ],
   '@typescript-eslint/semi': 0,
   '@typescript-eslint/type-annotation-spacing': 0,
   'no-unused-expressions': 0,
