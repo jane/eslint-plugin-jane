@@ -74,7 +74,8 @@
     ]
   },
   "peerDependencies": {
-    "eslint": "^7.16.0"
+    "eslint": "^7.16.0",
+    "prettier": "^2.5.1"
   },
   "husky": {
     "hooks": {
