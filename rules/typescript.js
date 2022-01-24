@@ -28,8 +28,8 @@ const typescriptRules = {
         requireLast: true,
       },
       singleline: {
-        delimiter: 'comma',
-        requireLast: true,
+        delimiter: 'semi',
+        requireLast: false,
       },
     },
   ],
