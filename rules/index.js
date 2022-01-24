@@ -41,14 +41,18 @@ const plugin = {
         browser: true,
       },
       plugins: ['react', 'jsx-a11y', 'react-hooks'],
-      extends: ['plugin:import/warnings'],
+      extends: ['plugin:import/warnings', 'prettier'],
       rules: Object.assign({}, reactRules, a11yRules),
     },
     node: {
       env: {
         node: true,
       },
-      extends: ['plugin:import/warnings', 'plugin:node/recommended'],
+      extends: [
+        'plugin:import/warnings',
+        'plugin:node/recommended',
+        'prettier',
+      ],
       rules: nodeRules,
     },
     jest: {
@@ -56,12 +60,12 @@ const plugin = {
         jest: true,
       },
       plugins: ['jest'],
-      extends: ['plugin:import/warnings'],
+      extends: ['plugin:import/warnings', 'prettier'],
       rules: jestRules,
     },
     prettier: {
       plugins: ['prettier'],
-      extends: ['plugin:import/warnings'],
+      extends: ['plugin:import/warnings', 'prettier'],
       rules: prettierRules,
     },
     typescript: {
@@ -69,6 +73,7 @@ const plugin = {
       extends: [
         'plugin:import/warnings',
         'plugin:@typescript-eslint/recommended',
+        'prettier',
       ],
       rules: typescriptRules,
       parser: '@typescript-eslint/parser',
