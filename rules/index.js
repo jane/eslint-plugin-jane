@@ -1,5 +1,4 @@
 const prettierFormat = require('./prettier')
-const prettierTsFormat = require('./prettier-ts')
 
 const { nodeRules } = require('./node')
 const { a11yRules, reactRules } = require('./react')
@@ -9,9 +8,6 @@ const { typescriptRules } = require('./typescript')
 
 const prettierRules = {
   'prettier/prettier': [2, prettierFormat],
-}
-const prettierTsRules = {
-  'prettier/prettier': [2, prettierTsFormat],
 }
 
 const defaultParserOptions = {
@@ -45,14 +41,18 @@ const plugin = {
         browser: true,
       },
       plugins: ['react', 'jsx-a11y', 'react-hooks'],
-      extends: ['plugin:import/warnings'],
+      extends: ['plugin:import/warnings', 'prettier'],
       rules: Object.assign({}, reactRules, a11yRules),
     },
     node: {
       env: {
         node: true,
       },
-      extends: ['plugin:import/warnings', 'plugin:node/recommended'],
+      extends: [
+        'plugin:import/warnings',
+        'plugin:node/recommended',
+        'prettier',
+      ],
       rules: nodeRules,
     },
     jest: {
@@ -60,24 +60,20 @@ const plugin = {
         jest: true,
       },
       plugins: ['jest'],
-      extends: ['plugin:import/warnings'],
+      extends: ['plugin:import/warnings', 'prettier'],
       rules: jestRules,
     },
     prettier: {
       plugins: ['prettier'],
-      extends: ['plugin:import/warnings'],
-      rules: prettierRules,
-    },
-    'prettier-ts': {
-      plugins: ['prettier'],
       extends: ['plugin:import/warnings', 'prettier'],
-      rules: prettierTsRules,
+      rules: prettierRules,
     },
     typescript: {
       plugins: ['@typescript-eslint'],
       extends: [
         'plugin:import/warnings',
         'plugin:@typescript-eslint/recommended',
+        'prettier',
       ],
       rules: typescriptRules,
       parser: '@typescript-eslint/parser',

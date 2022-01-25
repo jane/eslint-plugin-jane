@@ -24,12 +24,12 @@ const typescriptRules = {
     2,
     {
       multiline: {
-        delimiter: 'comma',
+        delimiter: 'none',
         requireLast: true,
       },
       singleline: {
-        delimiter: 'comma',
-        requireLast: true,
+        delimiter: 'semi',
+        requireLast: false,
       },
     },
   ],
