@@ -31,5 +31,5 @@
     }
   ],
   "prConcurrentLimit": 5,
-  "prCreation": "not-pending"
+  "prCreation": "immediate"
 }
