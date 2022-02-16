@@ -31,7 +31,7 @@ Jane's ESLint plugin and configurations.
 
 You can extend any or all of the exported configurations.
 If you are using the typescript plugin, some of the rules require this to be
-added to the .eslintrc file
+added to the .eslintrc file:
 
 ```json
 "parser": "@typescript-eslint/parser",
