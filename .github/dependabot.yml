@@ -1,0 +1,11 @@
+version: 2
+updates:
+  - package-ecosystem: "npm"
+    directory: "/"
+    schedule:
+      interval: "weekly"
+    commit-message:
+      prefix: "[patch] - "
+    open-pull-requests-limit: 0
+    allow:
+      - dependency-type: "production"

@@ -1,5 +1,35 @@
 {
-  "extends": [
-    "config:base"
-  ]
+  "commitMessageAction": "{{#if (containsString depType 'devDependencies')}}[skip ci] - Dev Deps - {{else if isMajor}}[patch] - Major Deps - {{else if isPatch}}[patch] - Patch Deps - {{else}}[patch] - Minor Deps -  {{/if}}",
+  "dependencyDashboardApproval": true,
+  "enabledManagers": ["npm"],
+  "encrypted": {
+    "npmToken": "wcFMA/xDdHCJBTolAQ/+KN+UE36atfnm4e3x8Ng/p63RGpxXWizVpow4jfXv8Kx0yMKIuJoJCRckRqyBKia/V770Zv3qSqW4RM+A9HkBX7mo9iFGPC0HZ5wl988e2eEFJz7Tp1WYIzy+tQn0yzza4pg+ASzrrHeJWPdFSZHvGKxrrnbiWN2cKfPqzJ0pFgrvDsFHJOyvHkpSARm3/iWDMy+ANAK0vtvOrpmDkGKor5Q3UnFq0n7jax+9otJDl7jv0ixHcmAVTkvzwVyLg8QVNdsyG5SpP+BO0hzj5/MP/HTVYbxQTq1QE5DyNK0gH17mgXW8PCsrqO96kwHs6DUbl7Wa2qrpQzfMAMwoekhvFKM+jlp5JVGhB8eO9n4R665yE0zhEPGq4XbYJHtmX3kHTb3OWmgIXYZ1UyQOks6JV9o/3ErrRDoir6Qf40E1FUWxSI4wwHpJ3jVMR5dY7S8HMfb2uSM3hZ2XKnRQpSVH7aqvdC8Jr0g2/K4Ew/+LQ7nOv6Hk4R8DNBV8aAzUxDqXzqxXcn4S5CUd4GHTKH7Ff0zBN8N4K12g+xkBYKnMRnpxJSQ2TvC7tbXfa38Wu3CWeZ93n+jz5INVTh8hFlHeICjPkSRbGG+NZt/7EhS1T9ZYE8DYFb4APaTDKdFYiRia91AQ0mwjuG33RHPouSUiFKogYZ2K07E0MFYhIpl0JmLScwFx40GSjHap35cP/Po9hjyW0tq+zMPLG+9h/yq/HPFuFgbh5jIBsHetMLS4zq3OY3FySAmw7jMWobMbhao4tUX7jtqFwA0lkPeOuqd4HTqDRMOVYWl1OWezVTUFpQ8fB/ljl0aazonXm8iIK6xKVIAoTs0"
+  },
+  "extends": ["config:base", ":dependencyDashboard"],
+  "labels": ["dependencies"],
+  "major": {
+    "dependencyDashboardApproval": true
+  },
+  "npm": {
+    "stabilityDays": 3
+  },
+  "packageRules": [
+    {
+      "matchDepTypes": ["devDependencies"],
+      "matchUpdateTypes": ["patch"],
+      "groupName": "Dev Dependencies"
+    },
+    {
+      "matchDepTypes": ["dependencies"],
+      "matchUpdateTypes": ["patch"],
+      "groupName": "Dependencies"
+    },
+    {
+      "matchPackagePrefixes": ["@types/"],
+      "groupName": "Dependencies (types)",
+      "automerge": true
+    }
+  ],
+  "prConcurrentLimit": 5,
+  "prCreation": "not-pending"
 }
