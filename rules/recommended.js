@@ -162,6 +162,25 @@ const baseRules = {
   'valid-typeof': 2,
   'wrap-iife': [2, 'any'],
   yoda: [2, 'never'],
+  'import/order': [
+    'error',
+    {
+      'newlines-between': 'always',
+      'alphabetize': { 'order': 'asc' },
+      'groups': [
+        'builtin',
+        'external',
+        'internal',
+        ['parent', 'sibling', 'index'],
+      ],
+      'pathGroups': [
+        {
+          'pattern': '@/*',
+          'group': 'internal',
+        },
+      ],
+    },
+  ],
 }
 
 module.exports = { baseRules }

@@ -1,4 +1,5 @@
 const assert = require('assert')
+
 const { CLIEngine } = require('eslint')
 
 const c = new CLIEngine({ useEslintrc: true })
