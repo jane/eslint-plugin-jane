@@ -2,7 +2,7 @@
 
 Jane's ESLint plugin and configurations.
 
-[![npm version](https://img.shields.io/npm/v/eslint-plugin-jane.svg)](https://npm.im/eslint-plugin-jane) [![CircleCI](https://circleci.com/gh/jane/eslint-plugin-jane.svg?style=svg)](https://circleci.com/gh/jane/eslint-plugin-jane) [![Maintainability](https://api.codeclimate.com/v1/badges/33e6dcb7e992c8d799e6/maintainability)](https://codeclimate.com/github/jane/eslint-plugin-jane/maintainability)
+[![npm version](https://img.shields.io/npm/v/eslint-plugin-jane.svg)](https://npm.im/eslint-plugin-jane) [![Maintainability](https://api.codeclimate.com/v1/badges/33e6dcb7e992c8d799e6/maintainability)](https://codeclimate.com/github/jane/eslint-plugin-jane/maintainability)
 
 ---
 
