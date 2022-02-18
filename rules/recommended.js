@@ -88,6 +88,7 @@ const baseRules = {
   'no-proto': 2,
   'no-redeclare': 2,
   'no-regex-spaces': 2,
+  'no-restricted-imports': [2, { 'paths': ['lodash', 'recompose'] }],
   'no-restricted-syntax': [2, 'LabeledStatement', 'WithStatement'],
   'no-return-assign': [2, 'except-parens'],
   'no-script-url': 2,
