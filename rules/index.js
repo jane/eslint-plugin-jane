@@ -1,9 +1,8 @@
-const prettierFormat = require('./prettier')
-
+const { jestRules } = require('./jest')
 const { nodeRules } = require('./node')
+const prettierFormat = require('./prettier')
 const { a11yRules, reactRules } = require('./react')
 const { baseRules } = require('./recommended')
-const { jestRules } = require('./jest')
 const { typescriptRules } = require('./typescript')
 
 const prettierRules = {
@@ -28,6 +27,9 @@ const plugin = {
   configs: {
     recommended: {
       plugins: defaultPlugins,
+      settings: {
+        'import/internal-regex': '^(@/|@:).+',
+      },
       extends: ['plugin:import/warnings'],
       rules: baseRules,
     },
