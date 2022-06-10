@@ -1,7 +1,7 @@
 {
   "name": "eslint-plugin-jane",
   "description": "Jane's ESLint plugin and configurations",
-  "version": "11.2.2",
+  "version": "11.3.0",
   "author": "Jane",
   "license": "MIT",
   "main": "index.js",
@@ -46,14 +46,14 @@
     "eslint-plugin-jest": "25.3.4",
     "eslint-plugin-jsx-a11y": "6.5.1",
     "eslint-plugin-node": "11.1.0",
-    "eslint-plugin-prettier": "3.4.1",
+    "eslint-plugin-prettier": "4.0.0",
     "eslint-plugin-promise": "6.0.0",
-    "eslint-plugin-react": "7.28.0",
-    "eslint-plugin-react-hooks": "4.3.0",
+    "eslint-plugin-react": "7.30.0",
+    "eslint-plugin-react-hooks": "4.5.0",
     "eslint-plugin-unicorn": "40.0.0"
   },
   "devDependencies": {
-    "eslint": "7.32.0",
+    "eslint": "8.17.0",
     "eslint-plugin-self": "1.2.1",
     "husky": "4.3.6",
     "lint-staged": "12.1.7",
