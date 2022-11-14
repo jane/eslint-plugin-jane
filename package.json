@@ -1,7 +1,7 @@
 {
   "name": "eslint-plugin-jane",
   "description": "Jane's ESLint plugin and configurations",
-  "version": "11.2.2",
+  "version": "12.0.0-devjm.0",
   "author": "Jane",
   "license": "MIT",
   "main": "index.js",
