@@ -53,7 +53,7 @@
     "eslint-plugin-unicorn": "40.0.0"
   },
   "devDependencies": {
-    "eslint": "7.32.0",
+    "eslint": "8.27.0",
     "eslint-plugin-self": "1.2.1",
     "husky": "4.3.6",
     "lint-staged": "12.1.7",
@@ -74,7 +74,6 @@
     ]
   },
   "peerDependencies": {
-    "eslint": "^7.16.0",
     "prettier": "^2.5.1"
   },
   "husky": {
