@@ -7,5 +7,8 @@
     "plugin:self/recommended",
     "plugin:self/node",
     "plugin:self/prettier"
-  ]
+  ],
+  "parserOptions": {
+    "requireConfigFile": false
+  }
 }

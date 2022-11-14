@@ -1,7 +1,7 @@
 const assert = require('assert')
 
-const { CLIEngine } = require('eslint')
+const { ESLint } = require('eslint')
 
-const c = new CLIEngine({ useEslintrc: true })
+const c = new ESLint({ useEslintrc: true })
 
-assert.ok(c.executeOnText('const foo = 2\n'), 'not ok')
+assert.ok(c.lintText('const foo = 2\n'), 'not ok')
