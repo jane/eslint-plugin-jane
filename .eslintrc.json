@@ -1,11 +1,14 @@
 {
-  "root": true,
-  "plugins": [
-    "self"
-  ],
   "extends": [
-    "plugin:self/recommended",
-    "plugin:self/node",
-    "plugin:self/prettier"
-  ]
+    "eslint:recommended",
+    "plugin:eslint-plugin/recommended",
+    "plugin:node/recommended"
+  ],
+  "parserOptions": {
+    "ecmaVersion": 2020,
+    "sourceType": "script"
+  },
+  "rules": {
+    "eslint-plugin/require-meta-docs-description": "error"
+  }
 }

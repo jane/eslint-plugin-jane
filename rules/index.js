@@ -84,11 +84,4 @@ const plugin = {
   },
 }
 
-Object.keys(plugin.configs).forEach((k) => {
-  const c = plugin.configs[k]
-  c.parser = c.parser || 'babel-eslint'
-  c.parserOptions = c.parserOptions || defaultParserOptions
-  c.env = Object.assign(c.env || {}, { es6: true, commonjs: true })
-})
-
 module.exports = plugin
