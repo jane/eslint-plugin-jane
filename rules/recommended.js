@@ -24,7 +24,7 @@ const baseRules = {
   'max-depth': [2, 4],
   'max-nested-callbacks': [2, 4],
   'max-params': [2, 4],
-  'max-statements': [2, 40],
+  'max-statements': [2, 80],
   'new-cap': [2, { newIsCap: true, capIsNew: false }],
   'new-parens': 2,
   'no-array-constructor': 2,
